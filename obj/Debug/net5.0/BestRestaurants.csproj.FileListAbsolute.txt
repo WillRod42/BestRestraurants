@@ -49,3 +49,7 @@ C:\Users\jerem\OneDrive\Desktop\projects\BestRestaurants.Solution\BestRestaurant
 C:\Users\jerem\OneDrive\Desktop\projects\BestRestaurants.Solution\BestRestaurants\obj\Debug\net5.0\Razor\Views\Restaurant\Edit.cshtml.g.cs
 C:\Users\jerem\OneDrive\Desktop\projects\BestRestaurants.Solution\BestRestaurants\obj\Debug\net5.0\Razor\Views\Cuisines\Delete.cshtml.g.cs
 C:\Users\jerem\OneDrive\Desktop\projects\BestRestaurants.Solution\BestRestaurants\obj\Debug\net5.0\Razor\Views\Restaurant\Delete.cshtml.g.cs
+C:\Users\jerem\OneDrive\Desktop\projects\BestRestaurants.Solution\BestRestaurants\obj\Debug\net5.0\Razor\Views\Reviews\Create.cshtml.g.cs
+C:\Users\jerem\OneDrive\Desktop\projects\BestRestaurants.Solution\BestRestaurants\obj\Debug\net5.0\Razor\Views\Reviews\Delete.cshtml.g.cs
+C:\Users\jerem\OneDrive\Desktop\projects\BestRestaurants.Solution\BestRestaurants\obj\Debug\net5.0\Razor\Views\Reviews\Edit.cshtml.g.cs
+C:\Users\jerem\OneDrive\Desktop\projects\BestRestaurants.Solution\BestRestaurants\obj\Debug\net5.0\Razor\Views\Reviews\Index.cshtml.g.cs

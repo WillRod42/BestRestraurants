@@ -8,6 +8,15 @@
 <hr />
 <h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)</h3>
 <h5>@Html.DisplayNameFor(model => model.Description): @Html.DisplayFor(model => model.Description)</h5>
+<p>@Html.ActionLink("Add A Review", "Create", "Reviews", new {id = Model.RestaurantId})<p>
+@foreach(Review review in Model.Reviews)
+{
+  <ul>
+    <li><h5>Rating: @review.ReviewRating /10</h5></li>
+    <li><h5>Author: @review.ReviewAuthor</h5></li>
+    <li><p>@review.ReviewText</p></li>
+  </ul>
+}
 <button class="btn btn-primary">@Html.ActionLink("Add A Restaurant", "Create")</button>
 <p>@Html.ActionLink("Edit Restaurant", "Edit", new { id = Model.RestaurantId })</p>
 <p>@Html.ActionLink("Delete Restaurant", "Delete", new { id = Model.RestaurantId })</p>
