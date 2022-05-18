@@ -1,0 +1,30 @@
+@{
+  Layout = "_Layout";
+}
+@using BestRestaurants.Models
+<h2>Best Cuisines</h2>
+@if(Model.Count == 0)
+{
+  <h3>No Cuisines Have Been Added Yet</h3>
+}
+<ul>
+  @foreach (Cuisine cuisine in Model)
+  {
+    <li>@Html.ActionLink($"{cuisine.Name}", "Details", new {id = cuisine.CuisineId})</li>
+    <ul>
+    @if (cuisine.Restaurants.Count > 0)
+    {
+      @foreach (Restaurant restaurant in cuisine.Restaurants)
+      {
+        <li>@restaurant.Name</li>
+      }
+    }
+    else
+    {
+      <li>No restaurants have been added yet</li>
+    }
+    </ul>
+  }
+</ul>
+<button class="btn btn-primary">@Html.ActionLink("Add A Cuisine", "Create")</button>
+<p>@Html.ActionLink("Home", "Index", "Home")</p>
